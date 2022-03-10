@@ -8,7 +8,10 @@ Above some links that can help you in this journey:
 - https://linuxhint.com/install_ubuntu_windows_10_wsl/
 
 After wsl is working you can check the instalation and the distros available using the following command: 
-- wsl --list
+- wsl --list --all
+
+Set default wsl distro
+- wsl --setdefault {distro_name}
 
 ### 2. Configure wsl Memory usage:
 Go to users directory, some cases like `c:/users/user.name/` and create a file called `.wslconfig`
